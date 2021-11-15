@@ -21,7 +21,7 @@ public class Order_Status {
     @JoinColumn(name = "id")
     private Order_Product order_product;
 
-    private enum from_status{};
-    private enum to_status {};
+    private String FROM_STATUS;
+    private String TO_STATUS;
     private String transition_notes_comments;
 }
